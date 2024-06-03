@@ -1,0 +1,56 @@
+h1{
+    color:red;
+}
+h2{
+    color:blueviolet;
+}
+
+p{
+    width: 50%;
+}
+
+p:hover{
+    color: blue;
+}
+
+ul .one{
+    font-family: Verdana;
+    font-size: 16px;
+    color: red;
+}
+ul .two{
+    font-family: Roboto;
+    font-size: 18px;
+    color: blue;
+}
+ul .three{
+    font-family: Tahoma;
+    font-size: 20px;
+    color: orange;
+}
+ul .four{
+    font-family: Broadway;
+    font-size: 22px;
+    color: green;
+}
+ul .five{
+    font-family: Quickdand;
+    font-size: 24px;
+    color: gray;
+}
+
+.one:hover{
+    color:firebrick;
+}
+.two:hover{
+    color:blueviolet;
+}
+.three:hover{
+    color:cyan;
+}
+.four:hover{
+    color:black;
+}
+.five:hover{
+    color:pink;
+}
