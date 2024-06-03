@@ -39,6 +39,57 @@
             <img src="image3.png" alt="Image 3" title="Image 3">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi neque itaque, similique fugit est fuga nemo reiciendis sunt, accusamus minima perferendis at et mollitia ad autem voluptatum, dolorem natus repudiandae?</p>
         </section>
+        <section>
+            <h2>Formulaire</h2>
+            <form action="" method="">
+                <div>
+                <label for="prog">Barre de progression ?</label>
+                <progress id="prog" max=100></progress>
+            </div>
+            <div>
+                <label for="text">Champ de texte</label>
+                <input type="text" id="text">
+            </div>
+            <div>
+                <label for="file">Choisir un fichier</label>
+                <input type="file" id="file" name="file">
+            </div>
+            <div>
+                <label for="list-com"> Champ text avec options</label>
+                <input type="text" id="list-com" list="comboid">
+                <datalist id="comboid">
+                <option value="0"></option>
+                <option value="10"></option>
+                <option value="20"></option>
+                <option value="30"></option>
+                <option value="OK"></option>
+                </datalist>
+            </div>
+            <div>
+                <label for="select">Menu selection</label>
+                <select name="select">
+                    <option>Alpha</option>
+                    <option>Beta</option>
+                    <option>Delta</option>
+                </select>
+            </div>
+            <div>
+                <label for="range">Range</label>
+                <input  id="range" type="range" min="-100" max="100" value="0" step="2" name="power" list="powers">
+                <datalist id="powers">
+                <option value="0">
+                <option value="-30">
+                <option value="30">
+                <option value="+50">
+                </datalist>
+            </div>
+            <div>
+                <label for="submit">Submit</label>
+                <input id="id" type="submit" name="envoi" value="Envoyer">
+            </div>
+            </div>
+            </form>
+        </section>
     </main>
     <footer></footer>
 </body>

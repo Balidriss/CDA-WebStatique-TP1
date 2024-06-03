@@ -54,3 +54,16 @@ ul .five{
 .five:hover{
     color:pink;
 }
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    border: solid 5px black;
+    padding: 10px;
+}
+form > *{
+    display: flex;
+    justify-content: space-between;
+}
